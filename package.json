@@ -5,7 +5,9 @@
   "main": "dist/index.ts",
   "scripts": {
     "start": "tsc && node dist/index.js",
-    "start:dev": "tsc && nodemon dist/index.js"
+    "start:dev": "tsc && nodemon dist/index.js",
+    "build": "tsc",
+    "build:watch": "tsc -w"
   },
   "author": "Aqxorus",
   "license": "ISC",
