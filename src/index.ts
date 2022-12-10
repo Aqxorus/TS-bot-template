@@ -1,5 +1,6 @@
-import 'dotenv/config';
-import { Client, Partials, GatewayIntentBits } from 'discord.js';
+import { config } from 'dotenv';
+config();
+import { Client, Partials, GatewayIntentBits, Collection } from 'discord.js';
 const { Guilds, GuildMembers, MessageContent, GuildPresences, GuildMessages } =
   GatewayIntentBits;
 const { User, Message, GuildMember, ThreadMember } = Partials;
