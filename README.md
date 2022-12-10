@@ -19,4 +19,4 @@ Then, start the bot:
 npm run start
 ```
 
-More scripts in the [package.json](https://github.com/Aqxorus/YEEH1-typescript/blob/main/package.json) file.
+More scripts in the [package.json](https://github.com/Aqxorus/TS-bot-template/blob/main/package.json) file.
